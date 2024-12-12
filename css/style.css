@@ -1,0 +1,59 @@
+*{
+    color: #fff;
+    text-shadow: .1em .1em .1em #000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-top: .5em;
+    margin-left: 1.5em;
+}
+body{
+    background-color: gray;
+}
+.item{
+    width: fit-content;
+    padding: .5em;
+    margin-bottom: .5rem;
+    text-align: center;
+    background-color: gray;
+    font-size: x-large;
+}
+#results{
+    display: flex;
+    flex-direction: column;
+}
+.grand-total{
+    border-bottom: 2px solid #000;
+    margin: .5em;
+    padding: .25em;
+    width: fit-content;
+    font-size: xx-large;
+}
+input{
+    padding: .1em;
+    color: #000;
+    text-shadow: none;
+}
+option{
+    color: #000;
+    text-shadow: none;
+}
+select{
+    color: #000;
+    text-shadow: none;
+}
+.shipping-cost{
+    margin-left: .5em;
+}
+.subtotal{
+    border-bottom: 2px solid #000;
+    margin: .5em;
+    padding: .25em;
+    width: fit-content;
+    font-size: x-large;
+}
+form{
+    margin-left: 1em;
+}

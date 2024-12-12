@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furnature Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Furnature Store:</h1>
+    <br>
+    <script src="js/script.js"></script>
+    <form id="results" name="results" action="results.html" onsubmit="checkIfFormIsEmpty(event)" method="GET">
+        <div id="item">
+            <label>
+                Chairs $25.50<br>
+                <input type="text" id="chair" name="chair" placeholder="enter quantity">
+            </label>
+        </div>
+        <div id="item">
+            <label>
+                Recliner $37.75<br>
+                <input type="text" id="recliner" name="recliner" placeholder="enter quantity">
+            </label>
+        </div>
+        <div id="item">
+            <label>
+                Table $49.95<br>
+                <input type="text" id="table" name="table" placeholder="enter quantity">
+            </label>
+        </div>
+        <div id="item">
+            <label>
+                Umbrella $24.89<br>
+                <input type="text" id="umbrella" name="umbrella" placeholder="enter quantity">
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="submit" value="Make a Purchase">
+            </label>
+        </div>
+    </form>
+    <br>
+    <h2 style="margin-left: 1em;">Shipping zones</h2>
+    <img style="width: 40vw; margin-left: 1em; margin-top: 1em;" src="images/shipping-zone-map.png">
+</body>
+</html>
